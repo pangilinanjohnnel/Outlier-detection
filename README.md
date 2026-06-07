@@ -5,7 +5,7 @@ A comparative study of outlier and anomaly detection using multiple supervised a
 This project evaluates how different machine learning paradigms interpret anomaly detection using a small, specialized network dataset. We explore three distinct perspectives for both supervised and unsupervised methods to understand how model architecture impacts classification performance on simple datasets.
 
 ## 📊 Dataset Profile
-* **Source:** Network Anomaly Dataset (Kaggle)
+* **Source:** [Network Anomaly Dataset (Kaggle)](https://www.kaggle.com/datasets/amineipad/network-anoamly-dataset)
 * **Size:** 1,654 entries | 5 columns
 * **Features (4):** * Inbound Rate
     * Outbound Rate
