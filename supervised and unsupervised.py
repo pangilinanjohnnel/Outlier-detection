@@ -13,7 +13,7 @@ from sklearn.metrics import silhouette_score
 import os
 os.environ["OMP_NUM_THREADS"] = "1"
 
-df=pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\data mining\activity\D15.2\archive\networkanomalydataset.csv")
+df=pd.read_csv(r"archive\networkanomalydataset.csv")
 
 stats = df.groupby('Label')['Inbound Rate(bit/s)'].agg(['min', 'max', 'mean'])
 print(f"IR:{stats}")
